@@ -26,6 +26,7 @@ public class SessionFactoryConfiguration {
 
     @Autowired
     private DataSource dataSouce;
+
     @Value("${entity_package}")
     private String entityPackage;
 
